@@ -37,5 +37,16 @@ a{
     color: inherit;
     font-size: inherit;
 }
+h1{
+    font-size: 2.5rem;
+    color:var(--white-color);
+    span{
+        font-size:2.5rem ; 
+    }
+}
+span{
+    color:var(--primary-color)
+
+}
 `;
 export default GlobalStyle;
