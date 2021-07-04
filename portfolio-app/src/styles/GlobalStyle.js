@@ -35,7 +35,7 @@ body{
 a{
     font-family:inherit;
     color: inherit;
-    font-size: inherit;
+    font-size: .9rem;
 }
 h1{
     font-size: 2.5rem;

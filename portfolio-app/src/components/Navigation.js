@@ -10,22 +10,22 @@ function Navigation() {
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
-                <NavLink to="/home" activeClassName="active-class" >Home</NavLink>
+                <NavLink to="/" activeClassName="active-class" exact>Home</NavLink>
                 </li>
                 <li className="nav-item">
-                <NavLink to="/About" activeClassName="active-class" >About</NavLink>
+                <NavLink to="/about" activeClassName="active-class" exact>About</NavLink>
                 </li>
                 <li className="nav-item">
-                <NavLink to="/Resume" activeClassName="active-class" >Resume</NavLink>
+                <NavLink to="/resume" activeClassName="active-class" exact>Resume</NavLink>
                 </li>
                 <li className="nav-item">
-                <NavLink to="/Portfoliose" activeClassName="active-class" >Portfoliose</NavLink>
+                <NavLink to="/portfolios" activeClassName="active-class" exact>Portfoliose</NavLink>
                 </li>
                 <li className="nav-item">
-                <NavLink to="/hoBlogsme" activeClassName="active-class" >Blogs</NavLink>
+                <NavLink to="/blogs" activeClassName="active-class" exact>Blogs</NavLink>
                 </li>
                 <li className="nav-item">
-                <NavLink to="/Contact" activeClassName="active-class" >Contact</NavLink>
+                <NavLink to="/contact" activeClassName="active-class" exact>Contact</NavLink>
                 </li>
             </ul>
             <footer>
@@ -67,10 +67,16 @@ border-right:1px solid var(--border-color);
        }     
        a{
            display:block;
-           padding: .2rem 0 ;
+           padding: .45rem 0 ;
            position: relative;
+           text-transform: uppercase;
+           font-weight: 600;
+           letter-spacing: 1px;
+           transition: all .4s ease-in-out;
            &:hover{
                cursor: pointer;
+               color:var(--primary-color);
+        
            }
            &::before{
                content: "";
