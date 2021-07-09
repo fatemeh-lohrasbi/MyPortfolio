@@ -1,2 +1,2 @@
 # MyPortfolio
-my portfolio website with react js
+react js portfolio
