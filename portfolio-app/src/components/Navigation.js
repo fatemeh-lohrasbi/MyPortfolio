@@ -50,7 +50,7 @@ border-right:1px solid var(--border-color);
        padding: 1rem 0;
        text-align:center;
        img{
-           width: 70%;
+           width: 65%;
            border-radius: 50%;
            border: 8px solid var(--border-color);
        }
@@ -60,7 +60,7 @@ border-right:1px solid var(--border-color);
        width: 100%;
        text-align: center;  
        .active-class{
-           background-color: var(--primary-color);
+           background-color: var(--burgundy);
        }
        li{
         display:block;
@@ -75,7 +75,7 @@ border-right:1px solid var(--border-color);
            transition: all .4s ease-in-out;
            &:hover{
                cursor: pointer;
-               color:var(--primary-color);
+               /* color:var(--primary-color); */
         
            }
            &::before{
@@ -85,9 +85,9 @@ border-right:1px solid var(--border-color);
                left:0;
                width: 0;
                height: 50%;
-               background-color: var(--primary-color);
-               transition:All 0.4s cubic-bezier(1,-0.2,.25,.95);
-               opacity: 0.21;
+               background-color: var(--burgundy);
+               transition:All 0.5s cubic-bezier(1,-0.2,.25,.95);
+               opacity: 0.6;
            }
        }
        a:hover::before{

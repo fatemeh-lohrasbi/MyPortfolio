@@ -1,13 +1,13 @@
 import styled from 'styled-components';
-import Sidebar from './components/Sidebar';
+import Sidebar from './Components/Sidebar';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 import PortfoliosPage from './pages/PortfoliosPage';
 import BlogsPage from './pages/BlogsPage';
 import ContactPage from './pages/ContactPage';
-
 import { Route, Switch } from "react-router";
+
 
 function App() {  
   return ( 
@@ -52,7 +52,7 @@ margin-left: 16.3rem;
 min-height: 100vh;
   .lines{
     position: absolute;
-    min-height: 100vh;
+    min-height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-evenly;

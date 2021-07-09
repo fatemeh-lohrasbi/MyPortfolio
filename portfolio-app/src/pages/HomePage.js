@@ -1,5 +1,5 @@
 import React from 'react'
-import Particle from '../components/Particle';
+import Particle from '../Components/Particle';
 import styled from 'styled-components';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GithubIcon from '@material-ui/icons/GitHub';
@@ -54,16 +54,16 @@ const HomePageStyled = styled.header`
             justify-content: center;
             margin-top: 1rem;
             .icon{
-                border:2px solid var(--border-color);
-                display:flex;
+                border:2px solid #E0ACD5;
+                display:flex;   
                 align-items: center;
                 justify-content: center;
                 border-radius: 50%;
                 cursor: pointer;
 
                 &:hover{
-                    border:2px solid var(--primary-color);
-                    color:var(--primary-color);
+                    border:2px solid #800020;
+                    color:#540020;
                     transition: all .4s ease-in-out;
                 }
                 &:not(:last-child){

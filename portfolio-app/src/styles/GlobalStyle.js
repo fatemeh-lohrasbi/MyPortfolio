@@ -18,6 +18,8 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
+    --burgundy:#800020;
+    --light-burgundy:#ff9ebb;
 }
 *{
     padding:0;
@@ -26,7 +28,6 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1.2rem;
     font-family: 'Nunito', sans-serif;
     text-decoration:none;
-
 }
 body{
     background-color: var(--background-dark-color);
@@ -45,8 +46,7 @@ h1{
     }
 }
 span{
-    color:var(--primary-color)
-
+    color:var(--burgundy)
 }
 `;
 export default GlobalStyle;
