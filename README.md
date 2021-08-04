@@ -1,2 +1,2 @@
 # MyPortfolio
-react js portfolio
+built with react js 
